@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+form{
+    margin-top: 20px;
+}
+form .add_product,
+form .all_product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+form .btn{
+    padding: 4px 20px;
+}
+form .form-group {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+}
+form .form-group input{
+    padding: 4px;
+    display: flex;
+}
+
+form .selected{
+    margin-top: 50px;
+}
+
+/* Card */
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid grey;
+    position: relative;
+    width: 30%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.card input{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+form #sel-dimension{
+    flex-direction: column;
+}
+form #sel-dimension input{
+    margin-top: 7px;
+}

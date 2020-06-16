@@ -1,0 +1,16 @@
+1. Fill in Model/Product.php db method to connect with database
+2. Run Mysql dump "mysql -u username -p database_name < file.sql"
+3. From terminal run "php -S localhost:8080". Not necessary to use webserver like xampp.
+4. In open browser fill all fields, choose type, fill choosing field(s) and press save
+5. Click All products link, an you will see your product. Products display like cards, in the top left corner is checkbox. Choose this card by pressing checkbox, then press apply, and product will be deleted from page, and from database also.
+Mass deleting works as well.
+
+===========================================================================================================================
+
+There is no bootstrap or any kind of cool styling, just simple html, and css (flexbox). From javascript is only to display type section. Very simple.
+In this project I'm use composer, so for work with database my choose stopped on illuminate/database package from packagist, for routing - nikic/fast-route package. And of course autoload. This project consist of one controller, one model end simple view class. View class just take path to resource folder, an extract variables. Model class name Product work with database - save, get, delete. And Controller just control what to do.
+
+===========================================================================================================================
+
+Tank you for you time.
+Best regard Arturs
